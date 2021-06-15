@@ -1,0 +1,14 @@
+@import '../common/style-setting.scss';
+
+.footer {
+    width: 100%;
+    background-color: #{$main_color};
+    color: white;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}

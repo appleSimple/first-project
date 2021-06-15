@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <mat-card class="login_box">
+    <form action="" class="login_form" formGroup="loginForm">
+      <div class="form_title">Log in</div>
+      <mat-form-field>
+        <mat-label>ID</mat-label>
+        <input matInput placeholder="must fill" formControlName="userId"/>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>PASSWORD</mat-label>
+        <input matInput placeholder="must fill" formControlName="userPw"/>
+      </mat-form-field>
+
+      <div class="button_box">
+        <button mat-flat-button color="primary" (click)="onSubmit()">log in</button>
+        <button mat-stroked-button color="warn">sign up</button>
+      </div>
+      
+    </form>
+  </mat-card>
+</div>
